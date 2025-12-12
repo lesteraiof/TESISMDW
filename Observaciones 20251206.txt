@@ -1,0 +1,38 @@
+Marco contextual
+
+Marco conceptual ()
+Definir Info, Warning, Error
+Definir tipos de errores ejemplos:
+ Server started on port 7001
+ New HTTP connection established
+ Slow query detected
+ WebLogicNode failed to allocate resource
+Scheduled task executed
+ NullPointerException at module A
+ High CPU usage in JVM
+ Session created successfully
+
+Experimental (Grupo de control)
+
+Marco Contextual
+Carga de logs generados por días
+
+Marco referencial
+Basado en literatura especializada en ML para series temporales y detección de anomalías (como logs de sistemas) se decide utilizar una muestra de 500000 registros:
+(Géron, 2019) En su capítulo 2 explica que datasets <50,000 muestras son insuficientes para modelos no lineales en problemas reales, ya que "insufficient quantity of training data" (cantidad insuficiente de datos de entrenamiento) lleva a underfitting (Desajuste). Recomienda splits grandes (e.g., 70% train con al menos 100,000-500,000 para timeseries complejas) para evitar bias y mejorar precisión.
+(Chollet, 2021) En su Capítulo 10 usa ejemplos como el dataset Jena Climate (~200,000 timesteps) para forecasting temporal, y advierte que en DL para timeseries, muestras <100,000 generan pobre generalización; sugiere >300,000-500,000 para capturar dependencias largas.
+
+
+Modelo Ideal (Normalidad así funciona)
+Cómo se comportan las variables (resultados)
+
+-----PENDING-----
+Capítulo 2
+Marco Referencial:
+Con benchmarking en función a la variable de estudio
+En la literatura se debe explicar el modelo a aplicar con "la receta" para hacer la implementación de Machine Learning.
+En virtud de la necesidad que se tiene se concluye que el modelo más indicado es
+
+Capítulo 3
+Cómo se explica en el marco referencial se utilizará el modelo..
+
